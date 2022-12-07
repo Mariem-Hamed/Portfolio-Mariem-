@@ -1,93 +1,159 @@
 <!DOCTYPE html>
 <html>
-  <head>
-     </head>
+  <head> 
+    <title>Portfolio Mariem Hamed</title>
+
+  </head>
+
   <body>
+    <!-- navbar start -->
     <nav>
-      <a href="home">Home</a>
-      <a href="About">About</a>
-      <a href="Work">Work</a>
-      <a href="Resume">Resume</a>
-      <a href="Contact">Contact</a>
+      <a href="#Home">Home</a>
+      <a href="#About">About</a>
+      <a href="#Work">Work</a>
+      <a href="#Resume">Resume</a>
+      <a href="#Contact">Contact</a>
     </nav>
-    <section class="about section">
-      <h1>About Page</h1>
-      <p>
-        Dr. Mariem Hamed is PhD holder in Biological Sciences specialized in
-        Biochemistry, Universty of Tunis El Manar.
-      </p>
-      <p>
-        She has published in several in peer reviewed journals. Her research
-        publications focus on the identification and the structural
-        identification of polysaccharides extracted from agricultural
-        by-products. Examples of our recent publications can be found below
-      </p>
-      <div class="img-zoom-container">
-        <img  src="capture Crude.jpg" width="300" height="240">
-        <div id="myresult" class="img-zoom-result"></div>
-      </div>
-    </section>
+    <!-- navbar end -->
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="home section" id="Home">
+      <h2>Home</h2>
+      <p>Home is where you get first</p>
+      <!-- Home section end -->
+      <br />
+      <br />
+      <br />
+      <br />
 
-    <section class="Work page">
-      <h1>Work page</h1>
-      <ul>
-        <li>Research & Develeopement</li>
+      <!-- About section start -->
+      <div class="about section" id="About">
+        <h2>About</h2>
+        <p>
+          Dr. Mariem Hamed is PhD holder in Biological Sciences specialized in
+          Biochemistry, Universty of Tunis El Manar.
+        </p>
+        <p>
+          She has published in several in peer reviewed journals. Her research
+          publications focus on the identification and the structural
+          identification of polysaccharides extracted from agricultural
+          by-products. Examples of our recent publications can be found below :
+        </p>
+    </div>
+</div>
+        <img src="img/capture Crude.jpg" width="300" height="240">
+          <img src="img/capture 2 .jpg" width="300" height="240" >
+          <img src="img/capture 3 .jpg" width="300" height="240" >
+    <!-- About section end -->
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!-- Work section start -->
+    <div class="Work section" id="Work">
+      <h2>Work</h2>
+      <ol>
+        <li>Reaserach & Developement</li>
         <li>Technological Transfer</li>
-        <li>Clinical Step</li>
-      </ul>  
-    </section>
-    <section class="Resume Page">
-      <h1>Resume Page</h1>
-    </section>
-    <audio controls autoplay muted>
-        <source src="" type="">
-        <source src="" type="">
-      </audio>
+        <li>Clinical steps</li>
+      </ol>
+    </div>
 
-    <section class="Contact Page">
-      <h1>Contact Page</h1>
+    <!-- Work section end -->
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!-- Resume section start -->
+    <div class="Resume section" id="Resume">
+      <h2>Resume</h2>
+      <video width="320" height="240" controls>
+        <source src="video.mp4" type="video/mp4">
+    </div>
+
+    <!-- Work section end -->
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!-- Contact section start -->
+    <div class="Contact section" id="Contact">
+      <h2>Contact Page</h2>
       <div class="row">
         <div class="col-25">
           <label for="fname">First Name</label>
         </div>
         <div class="col-75">
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
         </div>
         <div class="row">
-            <div class="col-25">
-              <label for="lname">Last Name</label>
-            </div>
-            <div class="col-75">
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-            </div>
+          <div class="col-25">
+            <label for="lname">Last Name</label>
           </div>
-          <div class="row">
-            <div class="col-25">
-              <label for="country">Country</label>
-            </div>
-            <div class="col-75">
-              <select id="country" name="country">
-                <option value="Tunisia">Tunisia</option>
-                <option value="Algeria">Algeria</option>
-                <option value="Maroc">Maroc</option>
-                <option value="Mauritania">Mauritania</option>
-              </select>
-            </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
           </div>
-          <div class="row">
-            <div class="col-25">
-              <label for="Comment">Comment</label>
-            </div>
-            <div class="col-75">
-              <textarea id="Comment" name="Comment" placeholder="Write something here .." ></textarea>
-            </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="country">Country</label>
           </div>
-          <div class="row">
-            <input type="submit" value="Submit">
+          <div class="col-75">
+            <select id="country" name="country">
+              <option value="Tunisia">Tunisia</option>
+              <option value="Algeria">Algeria</option>
+              <option value="Maroc">Maroc</option>
+              <option value="Mauritania">Mauritania</option>
+            </select>
           </div>
-        </form>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="Comment">Comment</label>
+          </div>
+          <div class="col-75">
+            <textarea
+              id="Comment"
+              name="Comment"
+              placeholder="Write something here .."
+            ></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit" />
+        </div>
       </div>
-    </section>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26327.42207654736!2d8.756150944747896!3d34.428590052315634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f896fa5476901f%3A0x873608732b8975d5!2sGafsa!5e0!3m2!1sfr!2stn!4v1670434943301!5m2!1sfr!2stn"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
     <br />
     <br />
     <br />
@@ -99,12 +165,14 @@
     <br />
     <br />
     <br />
-
-    <footer>
-      <p>
-        Author : Mariem Hamed <br/>
-        <a href="dr@Hamed.com">dr@Hamed.com</a>
-      </p>
-    </footer>
   </body>
+
+  <footer>
+    <p>Author: Mariem Hamed</p>
+  <p><a href="Dr@hamed.com">Dr@hamed.com</a></p>
+  <i class="fa-brands fa-facebook"> </i>
+    <i class="fa-brands fa-linkedin"> </i>
+ 
+</footer>
+
 </html>
