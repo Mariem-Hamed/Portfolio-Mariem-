@@ -1,0 +1,82 @@
+body {
+  color: black;
+  background-color: rgb(241, 239, 239);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto";
+  font-style: italic;
+  background-color: rgb(241, 239, 239);
+  color: rgba(0, 0, 0, 0);
+  text-align: left;
+}
+
+h2 {
+  text-shadow: 0 0 3px #0040ff, 0 0 5px #0000ff;
+}
+
+p {
+  text-align: center;
+}
+
+/* Elements take the whole width */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+/* Elements take the whole width */
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+/* Change nav color while clicking*/
+li a:hover {
+  background-color: rgb(71, 122, 250);
+  color: white;
+}
+
+/* center photos*/
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+/* Styling forms*/
+
+input {
+  width: 50%;
+  padding: 20px 40px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(66, 17, 211);
+  border-radius: 8px;
+}
+
+textarea {
+  resize: both;
+  border: 2px solid rgb(66, 17, 211);
+  border-radius: 8px;
+}
+
+select {
+  width: 50%;
+  padding: 16px 20px;
+  border: 2px solid rgb(66, 17, 211);
+  border-radius: 8px;
+}
